@@ -59,6 +59,7 @@ function App() {
     return (
         <>
             <header className="header">
+                <h1>Cool Search 😎</h1>
                 <form onSubmit={handleOnSubmit}>
                     <input
                         className="search"

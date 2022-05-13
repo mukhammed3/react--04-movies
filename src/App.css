@@ -74,7 +74,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-color: #373b69;
     padding: 1rem;
 }
@@ -99,4 +99,22 @@ body {
     background-color: #22254b;
     padding: 0.5rem;
     border-radius: 5px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form > input {
+    margin-right: 25px;
+}
+
+form > button {
+    width: 100px;
+    height: 30px;
+    color: darkseagreen;
+    outline: 2px solid darkseagreen;
+    border: none;
+    background-color: transparent;
 }
